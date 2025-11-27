@@ -1,5 +1,5 @@
 import { Image, Inner } from "@/components/atoms";
-import { Text, Heading } from "@/components/atoms";
+import { Text, Heading, Link, Button } from "@/components/atoms";
 import { EngineerDbAboutCtt } from "@/app/(unauthenticated)/login/_component/EngineerDbAboutCtt";
 import { SignOutToast } from "@/app/(unauthenticated)/login/_component/SignOutToast";
 import { SignInButton } from "@/components/layout/header/nav/SignInButton";
@@ -49,6 +49,22 @@ export default async function Page() {
             <br />
             再開時期が決まり次第、お知らせいたします。
           </Text>
+        </Inner>
+        <Inner>
+          <div className="flex gap-4">
+            <Button href="https://forms.gle/aeBUs6YQSRNgTaqz8" size="sm">
+              お問合わせ
+            </Button>
+            <Button href="https://x.com/hiranuma_shuya" size="sm">
+              開発者の「X」
+            </Button>
+            <Button
+              href="https://qiita.com/hiiragiya/items/2a11f15d07c7f14c0887"
+              size="sm"
+            >
+              技術的なお話(Qiita)
+            </Button>
+          </div>
         </Inner>
       </div>
       <div className="overflow-hidden bg-slate-100 py-20 text-center md:py-32">

@@ -12,11 +12,11 @@ export const FooterNavList = [
   { name: "プライバシーポリシー", href: "/policy", isExternal: true },
   {
     name: "開発者の「X」",
-    href: "https://twitter.com/koocookooc",
+    href: "https://x.com/hiranuma_shuya",
     isExternal: true,
   },
   {
-    name: "技術的なお話",
+    name: "技術的なお話(Qiita)",
     href: "https://qiita.com/hiiragiya/items/2a11f15d07c7f14c0887",
     isExternal: true,
   },
