@@ -50,20 +50,29 @@ export default async function Page() {
             再開時期が決まり次第、お知らせいたします。
           </Text>
         </Inner>
-        <Inner>
+        <Inner className="mt-4">
           <div className="flex gap-4">
-            <Button href="https://forms.gle/aeBUs6YQSRNgTaqz8" size="sm">
-              お問合わせ
-            </Button>
-            <Button href="https://x.com/hiranuma_shuya" size="sm">
-              開発者の「X」
-            </Button>
-            <Button
-              href="https://qiita.com/hiiragiya/items/2a11f15d07c7f14c0887"
-              size="sm"
+            <a
+              href="https://forms.gle/aeBUs6YQSRNgTaqz8"
+              target="_blank"
+              className="text-blue-500 underline"
             >
-              技術的なお話(Qiita)
-            </Button>
+              お問合わせは
+            </a>
+            <a
+              href="https://x.com/hiranuma_shuya"
+              target="_blank"
+              className="text-blue-500 underline"
+            >
+              開発者の「X」
+            </a>
+            <a
+              href="https://qiita.com/hiiragiya/items/2a11f15d07c7f14c0887"
+              target="_blank"
+              className="text-blue-500 underline"
+            >
+              技術的な話(Qiita)
+            </a>
           </div>
         </Inner>
       </div>
